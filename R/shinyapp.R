@@ -5,7 +5,8 @@
 #' data for analysis and research purposes.
 #'
 #' @export
-load_app <- function() {
-  app_dir <- system.file("inst", package = "bobrossshiny")
-  shiny::runApp(app_dir, display.mode = "normal")
+loadbob <- function() {
+  app_dir <- system.file("bobapp", package = "BobRoss")
+  shiny::runApp(app_dir, display.mode = "normal")
 }
+
