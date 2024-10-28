@@ -17,6 +17,7 @@ Imports:
     reshape2,
     here,
     shiny
+URL: https://github.com/ETC5523-2024/assignment-4-packages-and-shiny-apps-Raodityaaa/, https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-Raodityaaa/
 LazyData: true
 Suggests: 
     knitr,
