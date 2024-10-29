@@ -7,6 +7,7 @@ library(shinyBS)
 library(shinythemes)
 library(dplyr)
 library(tidyr)
+library(BobRoss)
 
 # Load the dataset (replace with correct package if necessary)
 data(bob_ross)

@@ -2,30 +2,42 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # BobRoss
-you can view the website of this package at: https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-Raodityaaa/
-<!-- badges: start -->
-<!-- badges: end -->
 
-The goal of BobRoss is to …
+Welcome to the **BobRoss** R package! This package provides data from
+Bob Ross’s *Joy of Painting* and includes a Shiny app to analyze the
+colors used in his famous paintings. Dive into the vibrant world of Bob
+Ross and explore how he used different colors across his paintings.
+
+## Package Overview
+
+The **BobRoss** package contains: - A dataset that captures the color
+information from all of Bob Ross’s paintings featured in the *Joy of
+Painting* series. - A Shiny app that allows you to visualize and
+interactively explore the colors used in these paintings.
 
 ## Installation
 
-You can install the development version of BobRoss from
-[GitHub](https://github.com/) with:
+To install the **BobRoss** package, you can use the following command to
+install it directly from GitHub:
 
 ``` r
-# install.packages("pak")
-pak::pak("ETC5523-2024/assignment-4-packages-and-shiny-apps-Raodityaaa")
+# Install devtools package if you don't have it
+install.packages("devtools")
+
+# Install BobRoss package from GitHub
+devtools::install_github("ETC5523-2024/assignment-4-packages-and-shiny-apps-Raodityaaa/BobRoss")
 ```
 
-## Example
-
-This is a basic example which shows you how to solve a common problem:
+# Example usage:
 
 ``` r
 library(BobRoss)
-## basic example code
+loadbob()
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
+# License
+
+This package is licensed under the MIT License. See the LICENSE file for
+more details.
+
+Enjoy exploring the colorful world of Bob Ross’s paintings!
