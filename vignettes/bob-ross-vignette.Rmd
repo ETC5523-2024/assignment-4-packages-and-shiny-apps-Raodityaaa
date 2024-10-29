@@ -1,19 +1,76 @@
 ---
-title: "bob-ross-vignette"
+title: "Analyzing Bob Ross Paintings"
+author: "Aditya Rao"
+date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{bob-ross-vignette}
+  %\VignetteIndexEntry{Analyzing Bob Ross Paintings}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
+# Introduction
+
+Welcome to the **BobRoss** package! This package provides a dataset and a Shiny app that allows users to analyze color data from Bob Ross's paintings in the *Joy of Painting* series. This vignette will walk you through the package's functionality, focusing on the key function `loadbob()`.
+
+## Installation
+
+Before we dive in, make sure you have installed the **BobRoss** package. You can install the package from GitHub as follows:
+
+``` r
+# Install the devtools package if you haven't already
+install.packages("devtools")
+
+# Install BobRoss package from GitHub
+devtools::install_github("ETC5523-2024/assignment-4-packages-and-shiny-apps-Raodityaaa/BobRoss")
 ```
 
-```{r setup}
+## Loading
+
+Once installed, load the BobRoss package using:
+
+``` r
 library(BobRoss)
 ```
+
+Function Overview The BobRoss package includes a key function loadbob() that launches a Shiny app for exploring Bob Ross's paintings based on the colors used in each one.
+
+``` r
+loadbob()
+```
+
+This function opens the Shiny app, where users can interact with various plots to explore the color information.
+
+## Shiny App
+
+Once the Shiny app is loaded, you can:
+
+-   Explore year-wise changes in color using a slider.
+-   View tooltips showing color frequency.
+-   Scroll through a list of colors and paintings.
+-   The app provides a user-friendly interface to visualize Bob Ross’s painting patterns and color choices.
+
+## Dataset
+
+The BobRoss package also contains the underlying dataset with detailed information on the colors used in each painting. You can access it directly for custom analysis if desired:
+
+``` r
+#Example usage
+head(bobross_data)
+```
+
+This dataset contains columns such as:
+
+1.  **season**: The season of the painting.
+
+2.  **episode**: The episode number of the painting.
+
+3.   **painting_title**: The title of the painting.
+
+4.  **colors**: The names of the colors used in the painting.
+
+This data can be used for additional exploration or analysis outside the Shiny app.
+
+## Conclusion
+
+The **BobRoss** package provides an exciting way to explore Bob Ross's use of color through a dataset and an interactive Shiny app. Whether you're a fan of *The Joy of Painting* or a data enthusiast looking to analyze artistic trends, this package has something for you.
