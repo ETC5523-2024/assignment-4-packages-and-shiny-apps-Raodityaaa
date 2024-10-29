@@ -16,7 +16,14 @@ Imports:
     tidytuesdayR,
     reshape2,
     here,
-    shiny
+    shiny,
+    ggplot2,
+    plotly,
+    shinyWidgets,
+    shinyBS,
+    shinythemes,
+    dplyr,
+    tidyr
 URL: https://github.com/ETC5523-2024/assignment-4-packages-and-shiny-apps-Raodityaaa/, https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-Raodityaaa/
 LazyData: true
 Suggests: 
