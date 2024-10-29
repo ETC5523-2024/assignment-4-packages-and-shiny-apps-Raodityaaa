@@ -54,26 +54,38 @@
   <main id="main" class="col-md-9"><div class="section level1">
 <div class="page-header"><h1 id="bobross">BobRoss<a class="anchor" aria-label="anchor" href="#bobross"></a>
 </h1></div>
-<p>you can view the website of this package at: <a href="https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-Raodityaaa/" class="external-link uri">https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-Raodityaaa/</a> <!-- badges: start --> <!-- badges: end --></p>
-<p>The goal of BobRoss is to …</p>
+<p>Welcome to the <strong>BobRoss</strong> R package! This package provides data from Bob Ross’s <em>Joy of Painting</em> and includes a Shiny app to analyze the colors used in his famous paintings. Dive into the vibrant world of Bob Ross and explore how he used different colors across his paintings.</p>
+<div class="section level2">
+<h2 id="package-overview">Package Overview<a class="anchor" aria-label="anchor" href="#package-overview"></a>
+</h2>
+<p>The <strong>BobRoss</strong> package contains: - A dataset that captures the color information from all of Bob Ross’s paintings featured in the <em>Joy of Painting</em> series. - A Shiny app that allows you to visualize and interactively explore the colors used in these paintings.</p>
+</div>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<p>You can install the development version of BobRoss from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
+<p>To install the <strong>BobRoss</strong> package, you can use the following command to install it directly from GitHub:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co"># install.packages("pak")</span></span>
-<span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="https://pak.r-lib.org/reference/pak.html" class="external-link">pak</a></span><span class="op">(</span><span class="st">"ETC5523-2024/assignment-4-packages-and-shiny-apps-Raodityaaa"</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="co"># Install devtools package if you don't have it</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"devtools"</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Install BobRoss package from GitHub</span></span>
+<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"ETC5523-2024/assignment-4-packages-and-shiny-apps-Raodityaaa/BobRoss"</span><span class="op">)</span></span></code></pre></div>
 </div>
-<div class="section level2">
-<h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
-</h2>
-<p>This is a basic example which shows you how to solve a common problem:</p>
+</div>
+<div class="section level1">
+<h1 id="example-usage">Example usage:<a class="anchor" aria-label="anchor" href="#example-usage"></a>
+</h1>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/ETC5523-2024/assignment-4-packages-and-shiny-apps-Raodityaaa/">BobRoss</a></span><span class="op">)</span></span>
-<span><span class="co">## basic example code</span></span></code></pre></div>
-<p>What is special about using <code>README.Rmd</code> instead of just <code>README.md</code>? You can include R chunks like so:</p>
+<span><span class="fu"><a href="reference/loadbob.html">loadbob</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
 </div>
+<div class="section level1">
+<h1 id="license">License<a class="anchor" aria-label="anchor" href="#license"></a>
+</h1>
+<p>This package is licensed under the MIT License. See the LICENSE file for more details.</p>
+<p>Enjoy exploring the colorful world of Bob Ross’s paintings!</p>
 </div>
+
   </main><aside class="col-md-3"><div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
