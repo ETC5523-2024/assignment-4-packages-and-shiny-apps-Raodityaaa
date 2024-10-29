@@ -2,7 +2,7 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # BobRoss
-
+you can view the website of this package at: https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-Raodityaaa/
 <!-- badges: start -->
 <!-- badges: end -->
 

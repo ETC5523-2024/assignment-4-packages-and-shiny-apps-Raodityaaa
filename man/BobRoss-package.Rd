@@ -8,6 +8,14 @@
 \description{
 What the package does (one paragraph).
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/ETC5523-2024/assignment-4-packages-and-shiny-apps-Raodityaaa/}
+  \item \url{https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-Raodityaaa/}
+}
+
+}
 \author{
 \strong{Maintainer}: Aditya Santosh Rao \email{asan0096@student.monash.edu}
 

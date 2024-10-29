@@ -29,3 +29,4 @@ color_cooccurrence <- as.matrix(t(color_matrix)) %*% as.matrix(color_matrix)
 melted_cooccurrence <- melt(color_cooccurrence)
 
 usethis::use_data(bob_ross, overwrite = TRUE)
+
